@@ -10,14 +10,9 @@ import android.text.TextUtils;
 
 public class AppUserSession {
 
-    private static String PREFS_FILE_NAME = "crumbs_user_data_prefs";
-    public static final String TOKEN_DETAIL = "token_data";
-    public static final String CUSTOMER_DETAIL = "customer_data";
-    public static final String FIRST_LAUNCH = "first_launch";
+    private static String PREFS_FILE_NAME = "app_data_prefs";
     public static final String ACCESS_TOKEN = "access_token";
     public static final String DEVICE_TOKEN = "device_token";
-
-    public static final String LOGIN_STATUS = "isLoggedIn";
 
     Context mContext;
 
@@ -30,22 +25,8 @@ public class AppUserSession {
     public static synchronized AppUserSession getInstance(Context iContext) {
         if (mInstance == null) {
             mInstance = new AppUserSession(iContext);
-
-        } else {
         }
         return mInstance;
-    }
-
-    public void setLoginStatus(boolean isLoggedIn) {
-        SharedPreferences aMyPrefs = mContext.getSharedPreferences(PREFS_FILE_NAME, Context.MODE_PRIVATE);
-        SharedPreferences.Editor prefsEditor = aMyPrefs.edit();
-        prefsEditor.putBoolean(LOGIN_STATUS, isLoggedIn);
-        prefsEditor.commit();
-    }
-
-    public boolean getLoginStatus() {
-        SharedPreferences aMyPrefs = mContext.getSharedPreferences(PREFS_FILE_NAME, Context.MODE_PRIVATE);
-        return aMyPrefs.getBoolean(LOGIN_STATUS, false);
     }
 
     public void setAccessToken(String iData) {

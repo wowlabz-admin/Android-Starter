@@ -34,4 +34,6 @@ dependencies {
                 module: 'bolts-applinks';
     }
     compile 'com.google.android.gms:play-services-auth:10.2.1'
+    compile 'uk.co.chrisjenx:calligraphy:2.2.0'
+    compile 'com.j256.ormlite:ormlite-android:5.0'
 }

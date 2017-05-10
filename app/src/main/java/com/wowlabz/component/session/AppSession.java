@@ -10,6 +10,11 @@ import com.wowlabz.component.storage.AppUserSession;
 public class AppSession {
     private static AppSession mInstance;
 
+    /**
+     * Gets the singleton access
+     *
+     * @return AppSession
+     */
     public static AppSession getInstance() {
         if (mInstance == null) {
             mInstance = new AppSession();
@@ -27,6 +32,11 @@ public class AppSession {
     }
 
 
+    /**
+     * Saves access token in preferences
+     *
+     * @param iAccessToken access token
+     */
     public void setAccessToken(String iAccessToken) {
         AppUserSession.getInstance(AppHelper.getInstance().getContext()).setAccessToken(iAccessToken);
     }

@@ -23,7 +23,7 @@ public class AppHelper {
     /**
      * Initialises the SDK with application context. This method should be initialized in the Application class of the app
      *
-     * @param iContext    Application Context
+     * @param iContext Application Context
      */
     public void initialize(Context iContext) {
         mContext = iContext;
@@ -49,10 +49,20 @@ public class AppHelper {
         }
     }
 
+    /**
+     * Enable debug mode
+     *
+     * @param iDebug Boolean to toggle debug mode on and off
+     */
     public void enableDebug(boolean iDebug) {
         DEBUG = iDebug;
     }
 
+    /**
+     * Check whether debug mode is enabled
+     *
+     * @return Boolean
+     */
     public boolean isDebugEnabled() {
         return DEBUG;
     }
@@ -61,10 +71,20 @@ public class AppHelper {
         STAGING, PRODUCTION
     }
 
+    /**
+     * Change build type of APIs.
+     * See also {@link BuildType#PRODUCTION}, {@link BuildType#STAGING}
+     *
+     * @param iType
+     */
     public void setBuildType(BuildType iType) {
         mBuildType = iType;
     }
 
+    /** Gets the current build type
+     *
+     * @return BuildType
+     */
     public BuildType getBuildType() {
         return mBuildType;
     }

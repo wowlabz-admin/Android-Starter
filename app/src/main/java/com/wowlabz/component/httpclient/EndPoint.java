@@ -1,5 +1,5 @@
 package com.wowlabz.component.httpclient;
 
-public class APIHelper {
+public class EndPoint {
     // Constants for Endpoints
 }

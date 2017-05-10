@@ -44,7 +44,7 @@ public class AppClient {
                     public Response intercept(Chain chain) throws IOException {
                         Request original = chain.request();
                         // Request customization: add request headers
-                        Request.Builder requestBuilder = original.newBuilder().header("Connection", "close")
+                        Request.Builder requestBuilder = original.newBuilder().header(Constants.HEADER_CONNECTION_KEY, Constants.HEADER_CONNECTION_VALUE)
                                 .method(original.method(), original.body());
                         String aAccessToken = AppSession.getInstance().getAccessToken();
                         if (!TextUtils.isEmpty(aAccessToken)) {

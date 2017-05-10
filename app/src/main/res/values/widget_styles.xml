@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Text View-->
+    <!--Text Size 10sp-->
+    <style name="text_10_black_normal">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/text_10</item>
+        <item name="android:typeface">normal</item>
+    </style>
+
+    <style name="text_10_black_bold" parent="text_10_black_normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_10_white_normal" parent="text_10_black_normal">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="text_10_white_bold" parent="text_10_white_normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Text Size 12sp-->
+    <style name="text_12_black_normal" parent="text_10_black_normal">
+        <item name="android:textSize">@dimen/text_12</item>
+    </style>
+
+    <style name="text_12_black_bold" parent="text_12_black_normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_12_white_normal" parent="text_12_black_normal">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="text_12_white_bold" parent="text_12_white_normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Text Size 14sp-->
+    <style name="text_14_black_normal" parent="text_10_black_normal">
+        <item name="android:textSize">@dimen/text_12</item>
+    </style>
+
+    <style name="text_14_black_bold" parent="text_14_black_normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_14_white_normal" parent="text_14_black_normal">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="text_14_white_bold" parent="text_14_white_normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Text Size 16sp-->
+    <style name="text_16_black_normal" parent="text_10_black_normal">
+        <item name="android:textSize">@dimen/text_12</item>
+    </style>
+
+    <style name="text_16_black_bold" parent="text_16_black_normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_16_white_normal" parent="text_16_black_normal">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="text_16_white_bold" parent="text_16_white_normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Text Size 18sp-->
+    <style name="text_18_black_normal" parent="text_10_black_normal">
+        <item name="android:textSize">@dimen/text_12</item>
+    </style>
+
+    <style name="text_18_black_bold" parent="text_18_black_normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_18_white_normal" parent="text_18_black_normal">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="text_18_white_bold" parent="text_18_white_normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Text Size 20sp-->
+    <style name="text_20_black_normal" parent="text_10_black_normal">
+        <item name="android:textSize">@dimen/text_12</item>
+    </style>
+
+    <style name="text_20_black_bold" parent="text_20_black_normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_20_white_normal" parent="text_20_black_normal">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="text_20_white_bold" parent="text_20_white_normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Text Size 22sp-->
+    <style name="text_22_black_normal" parent="text_10_black_normal">
+        <item name="android:textSize">@dimen/text_12</item>
+    </style>
+
+    <style name="text_22_black_bold" parent="text_22_black_normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_22_white_normal" parent="text_22_black_normal">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="text_22_white_bold" parent="text_22_white_normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Text Size 24sp-->
+    <style name="text_24_black_normal" parent="text_10_black_normal">
+        <item name="android:textSize">@dimen/text_12</item>
+    </style>
+
+    <style name="text_24_black_bold" parent="text_24_black_normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_24_white_normal" parent="text_24_black_normal">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="text_24_white_bold" parent="text_24_white_normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Text Size 26sp-->
+    <style name="text_26_black_normal" parent="text_10_black_normal">
+        <item name="android:textSize">@dimen/text_12</item>
+    </style>
+
+    <style name="text_26_black_bold" parent="text_26_black_normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_26_white_normal" parent="text_26_black_normal">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="text_26_white_bold" parent="text_26_white_normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Text Size 28sp-->
+    <style name="text_28_black_normal" parent="text_10_black_normal">
+        <item name="android:textSize">@dimen/text_12</item>
+    </style>
+
+    <style name="text_28_black_bold" parent="text_28_black_normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_28_white_normal" parent="text_28_black_normal">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="text_28_white_bold" parent="text_28_white_normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Text Size 30sp-->
+    <style name="text_30_black_normal" parent="text_10_black_normal">
+        <item name="android:textSize">@dimen/text_12</item>
+    </style>
+
+    <style name="text_30_black_bold" parent="text_30_black_normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_30_white_normal" parent="text_30_black_normal">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="text_30_white_bold" parent="text_30_white_normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Edit Text-->
+    <!--Text Size 10sp-->
+    <style name="edit_10_black">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColorHint">@android:color/hint_foreground_dark</item>
+        <item name="android:textSize">@dimen/text_10</item>
+    </style>
+
+    <style name="edit_10_white">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/hint_foreground_light</item>
+        <item name="android:textSize">@dimen/text_10</item>
+    </style>
+
+    <!--Text Size 12sp-->
+    <style name="edit_12_black" parent="edit_10_black">
+        <item name="android:textSize">@dimen/text_12</item>
+    </style>
+
+    <style name="edit_12_white" parent="edit_10_white">
+        <item name="android:textSize">@dimen/text_12</item>
+    </style>
+
+    <!--Text Size 14sp-->
+    <style name="edit_14_black" parent="edit_10_black">
+        <item name="android:textSize">@dimen/text_14</item>
+    </style>
+
+    <style name="edit_14_white" parent="edit_10_white">
+        <item name="android:textSize">@dimen/text_14</item>
+    </style>
+
+    <!--Text Size 16sp-->
+    <style name="edit_16_black" parent="edit_10_black">
+        <item name="android:textSize">@dimen/text_16</item>
+    </style>
+
+    <style name="edit_16_white" parent="edit_10_white">
+        <item name="android:textSize">@dimen/text_16</item>
+    </style>
+
+    <!--Text Size 18sp-->
+    <style name="edit_18_black" parent="edit_10_black">
+        <item name="android:textSize">@dimen/text_18</item>
+    </style>
+
+    <style name="edit_18_white" parent="edit_10_white">
+        <item name="android:textSize">@dimen/text_18</item>
+    </style>
+
+    <!--Text Size 20sp-->
+    <style name="edit_20_black" parent="edit_10_black">
+        <item name="android:textSize">@dimen/text_20</item>
+    </style>
+
+    <style name="edit_20_white" parent="edit_10_white">
+        <item name="android:textSize">@dimen/text_20</item>
+    </style>
+
+    <!--Text Size 22sp-->
+    <style name="edit_22_black" parent="edit_10_black">
+        <item name="android:textSize">@dimen/text_22</item>
+    </style>
+
+    <style name="edit_22_white" parent="edit_10_white">
+        <item name="android:textSize">@dimen/text_22</item>
+    </style>
+
+    <!--Text Size 24sp-->
+    <style name="edit_24_black" parent="edit_10_black">
+        <item name="android:textSize">@dimen/text_24</item>
+    </style>
+
+    <style name="edit_24_white" parent="edit_10_white">
+        <item name="android:textSize">@dimen/text_24</item>
+    </style>
+
+    <!--Text Size 26sp-->
+    <style name="edit_26_black" parent="edit_10_black">
+        <item name="android:textSize">@dimen/text_26</item>
+    </style>
+
+    <style name="edit_26_white" parent="edit_10_white">
+        <item name="android:textSize">@dimen/text_26</item>
+    </style>
+
+    <!--Text Size 28sp-->
+    <style name="edit_28_black" parent="edit_10_black">
+        <item name="android:textSize">@dimen/text_28</item>
+    </style>
+
+    <style name="edit_28_white" parent="edit_10_white">
+        <item name="android:textSize">@dimen/text_28</item>
+    </style>
+
+    <!--Text Size 30sp-->
+    <style name="edit_30_black" parent="edit_10_black">
+        <item name="android:textSize">@dimen/text_30</item>
+    </style>
+
+    <style name="edit_30_white" parent="edit_10_white">
+        <item name="android:textSize">@dimen/text_30</item>
+    </style>
+
+</resources>

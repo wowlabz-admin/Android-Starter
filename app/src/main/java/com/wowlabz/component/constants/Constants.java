@@ -1,9 +1,6 @@
 package com.wowlabz.component.constants;
 
 public class Constants {
-    public static final String BASE_URL_PROD = "**PRODUCTION_API**";
-
-    public static final String BASE_URL_STAGING = "**STAGING_API**";
 
     public static final String HEADER_CONNECTION_KEY = "Connection";
     public static final String HEADER_CONNECTION_VALUE = "close";

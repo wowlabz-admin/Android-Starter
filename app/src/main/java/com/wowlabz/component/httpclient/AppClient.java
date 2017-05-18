@@ -33,8 +33,6 @@ public class AppClient {
     }
 
     private static void setupRestClient() {
-        Gson aGson = new GsonBuilder()
-                .create();
         HttpLoggingInterceptor aLogging = new HttpLoggingInterceptor();
         // set your desired log level
         aLogging.setLevel(AppHelper.getInstance().isDebugEnabled() ? HttpLoggingInterceptor.Level.BODY : HttpLoggingInterceptor.Level.NONE);

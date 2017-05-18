@@ -195,13 +195,13 @@
     <!--Text Size 10sp-->
     <style name="edit_10_black">
         <item name="android:textColor">@android:color/black</item>
-        <item name="android:textColorHint">@android:color/hint_foreground_dark</item>
+        <item name="android:textColorHint">@color/grey</item>
         <item name="android:textSize">@dimen/text_10</item>
     </style>
 
     <style name="edit_10_white">
         <item name="android:textColor">@android:color/white</item>
-        <item name="android:textColorHint">@android:color/hint_foreground_light</item>
+        <item name="android:textColorHint">@color/grey</item>
         <item name="android:textSize">@dimen/text_10</item>
     </style>
 
